@@ -1,0 +1,6 @@
+@MyNTier.API_HostAddress = http://localhost:5116
+
+GET {{MyNTier.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
