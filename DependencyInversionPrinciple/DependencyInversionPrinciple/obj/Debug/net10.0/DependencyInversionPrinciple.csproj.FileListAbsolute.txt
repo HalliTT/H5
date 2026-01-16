@@ -1,0 +1,14 @@
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\obj\Debug\net10.0\DependencyInversionPrinciple.GeneratedMSBuildEditorConfig.editorconfig
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\obj\Debug\net10.0\DependencyInversionPrinciple.AssemblyInfoInputs.cache
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\obj\Debug\net10.0\DependencyInversionPrinciple.AssemblyInfo.cs
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\obj\Debug\net10.0\DependencyInversionPrinciple.csproj.CoreCompileInputs.cache
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\bin\Debug\net10.0\DependencyInversionPrinciple.exe
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\bin\Debug\net10.0\DependencyInversionPrinciple.deps.json
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\bin\Debug\net10.0\DependencyInversionPrinciple.runtimeconfig.json
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\bin\Debug\net10.0\DependencyInversionPrinciple.dll
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\bin\Debug\net10.0\DependencyInversionPrinciple.pdb
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\obj\Debug\net10.0\DependencyInversionPrinciple.dll
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\obj\Debug\net10.0\refint\DependencyInversionPrinciple.dll
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\obj\Debug\net10.0\DependencyInversionPrinciple.pdb
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\obj\Debug\net10.0\DependencyInversionPrinciple.genruntimeconfig.cache
+\\host.lan\Data\DependencyInversionPrinciple\DependencyInversionPrinciple\obj\Debug\net10.0\ref\DependencyInversionPrinciple.dll
