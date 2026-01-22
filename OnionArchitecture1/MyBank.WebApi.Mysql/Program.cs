@@ -3,6 +3,7 @@ using MyBank.Application.Interfaces;
 using MyBank.Application.Services;
 using MyBank.Domain.Services.Interfaces;
 using MyBank.Domain.Services.Services;
+using MyBank.Infrastructure.Persistence;
 using MyBank.Infrastructure.Repositories;
 
 namespace MyBank.WebApi.Mysql
@@ -14,11 +15,12 @@ namespace MyBank.WebApi.Mysql
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllers();
-            builder.Services.AddOpenApi();
+            //builder.Services.AddOpenApi();
 
             var connectionString = builder.Configuration.GetConnectionString("MyBankMySql")
                 ?? throw new InvalidOperationException("MySQL connection string not found.");
 
+            builder.Services.AddDbContext<BankDbContext>(opt => opt.UseSqlServer(connectionString, x => x.MigrationsAssembly("MyBank.Infrastructure")));
             builder.Services.AddScoped<IAccountRepository, AccountRepository>();
             builder.Services.AddScoped<IAccountAppService, AccountAppService>();
             builder.Services.AddScoped<TransferDomainService>();

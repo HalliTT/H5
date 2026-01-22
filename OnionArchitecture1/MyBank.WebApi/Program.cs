@@ -19,7 +19,7 @@ namespace MyBank.WebApi
 
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-            builder.Services.AddOpenApi();
+            //builder.Services.AddOpenApi();
 
             var connectionString = builder.Configuration.GetConnectionString("MyBankDatabase") ??
             throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
